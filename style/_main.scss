@@ -1,0 +1,39 @@
+/* main */
+/* ul y listas */
+.centered-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta altura  */
+  }
+
+  .centered-content {
+    text-align: center;
+    max-width: 600px; /* Ajusta el ancho maximo */
+    margin: 0 auto;
+  }
+/* ul y listas */
+/* main */
+
+// carrusel
+.custom-shape-divider-bottom-1693509570 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693509570 svg {
+  position: relative;
+  display: block;
+  width: calc(182% + 1.3px);
+  height: 176px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1693509570 .shape-fill {
+  fill: #CDB4DB;
+}
+// carrusel

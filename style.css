@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/* main */
+/* ul y listas */
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap");
+.centered-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Ajusta altura  */ }
+
+.centered-content {
+  text-align: center;
+  max-width: 600px;
+  /* Ajusta el ancho maximo */
+  margin: 0 auto; }
+
+/* ul y listas */
+/* main */
+.custom-shape-divider-bottom-1693509570 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg); }
+
+.custom-shape-divider-bottom-1693509570 svg {
+  position: relative;
+  display: block;
+  width: calc(182% + 1.3px);
+  height: 176px;
+  transform: rotateY(180deg); }
+
+.custom-shape-divider-bottom-1693509570 .shape-fill {
+  fill: #CDB4DB; }
+
+/* fuentes */
+.fuenteTitulo {
+  font-family: 'Satisfy', cursive;
+  font-size: 50px; }
+
+.fuente {
+  font-family: 'Frank Ruhl Libre', serif; }
+
+/* fuentes */
+.titulos-h1 {
+  padding: 80px;
+  font-size: 70px; }
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+
+.fuentes-index {
+  font-size: 20px; }
+
+/* nav */
+/* hover de la listas del nav */
+.hover:hover {
+  background: #ffc8dd;
+  transition: ease-in 0.3s;
+  border-radius: 20px; }
+
+/* hover de la listas del nav */
+.custom-navbar {
+  background: #cdb4db;
+  margin-top: 0; }
+
+/* nav */
+/* footer */
+.footer-inicio {
+  background: #cdb4db; }
+
+.box-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; }
+
+.box-footer > div {
+  text-align: center; }
+
+/* footer */
+.box-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  padding-top: 10px;
+  justify-content: center;
+  gap: 20px; }
+
+.card {
+  width: 18rem;
+  margin-right: 10px; }
+
+.body-center {
+  text-align: center; }
+
+.button-center {
+  display: flex;
+  justify-content: center; }
+
+.button-color {
+  background: #CDB4DB;
+  color: black; }
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 1s cubic-bezier(0.39, 0.575, 0.565, 1) backwards;
+  animation: scale-up-center 1s cubic-bezier(0.39, 0.575, 0.565, 1) backwards; }
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; }
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer; }
+
+.product-card {
+  text-align: center; }
+
+img {
+  width: 400px; }
+
+.body-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px; }
+
+.formulario-contacto {
+  background-color: #CDB4DB;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+.formulario-contacto label,
+.formulario-contacto input,
+.formulario-contacto textarea,
+.formulario-contacto button {
+  display: block;
+  margin-bottom: 10px; }
+
+.background {
+  background-image: url(../img/backgrounds/imgBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+body {
+  background-image: url(../img/backgrounds/imgBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+@media (max-width: 991px) {
+  .media {
+    display: flex;
+    flex-direction: row;
+    gap: 18px; } }
+
+@media (max-width: 494px) {
+  .media-h1 {
+    font-size: 50px; } }
+
+@media (max-width: 490px) {
+  .media-h1 {
+    font-size: 30px; } }
+
+@media (max-width: 634px) {
+  .centered-content {
+    padding-right: 50px; } }
+
+@media (max-width: 1455px) {
+  img {
+    width: 500px; }
+  .modal-content {
+    width: 600px; } }
+
+@media (max-width: 1379px) {
+  img {
+    width: 600px; }
+  .modal-content {
+    width: 700px; } }
+
+@media (max-width: 1011px) {
+  img {
+    width: 600px; }
+  .modal-content {
+    width: 700px; } }
+
+@media (max-width: 863px) {
+  img {
+    width: 600px; }
+  .modal-content {
+    width: 700px; } }
+
+@media (max-width: 763px) {
+  img {
+    width: 600px; }
+  .modal-content {
+    width: 700px; } }
+
+@media (max-width: 738px) {
+  img {
+    width: 500px; }
+  .modal-content {
+    width: 700px; } }
+
+@media (max-width: 719px) {
+  img {
+    width: 500px; }
+  .modal-content {
+    width: 600px; }
+  p {
+    font-size: 40px; } }
+
+@media (max-width: 629px) {
+  img {
+    width: 400px; }
+  .modal-content {
+    width: 500px; }
+  p {
+    font-size: 40px; } }
+
+@media (max-width: 539px) {
+  img {
+    width: 300px; }
+  .modal-content {
+    width: 400px; }
+  p {
+    font-size: 40px; } }
+
+@media (max-width: 2145px) {
+  p {
+    font-size: 40px; } }
+
+.container-pagos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+/* Estilo para el cuadro de pago */
+.box-pagos {
+  background-color: #CDB4DB;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px; }
+
+/* Estilo para los campos de entrada */
+.form-inputs {
+  display: flex;
+  flex-direction: column; }
+
+.form-inputs input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px; }
+
+/* Estilo para el botón de pago */
+.form-inputs button {
+  background-color: #CDB4DB;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s; }
+
+.form-inputs button:hover {
+  background-color: white;
+  color: black; }
+
+.size {
+  font-size: 50px; }
+
+.box-li {
+  list-style: none;
+  padding: 40px;
+  font-size: 30px; }

@@ -1,0 +1,21 @@
+.body-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.formulario-contacto {
+  background-color: #CDB4DB;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-contacto label,
+.formulario-contacto input,
+.formulario-contacto textarea,
+.formulario-contacto button {
+  display: block;
+  margin-bottom: 10px;
+}

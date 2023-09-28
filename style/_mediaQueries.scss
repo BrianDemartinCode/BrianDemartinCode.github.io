@@ -1,0 +1,139 @@
+@media (max-width: 991px){
+    .media{
+        display: flex;
+        flex-direction: row;
+         gap: 18px;
+    }
+}
+
+@media (max-width: 494px){
+    .media-h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 490px){
+    .media-h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 634px){
+    .centered-content{
+        padding-right: 50px;
+    }
+}
+
+@media (max-width:1455px){
+    img{
+        width: 500px;
+    }
+
+    .modal-content{
+        width: 600px;
+    }
+}
+
+@media (max-width:1379px){
+    img{
+        width: 600px;
+    }
+
+    .modal-content{
+        width: 700px;
+    }
+}
+
+@media (max-width:1011px){
+    img{
+        width: 600px;
+    }
+
+    .modal-content{
+        width: 700px;
+    }
+}
+
+@media (max-width:863px){
+
+    img{
+        width: 600px;
+    }
+
+    .modal-content{
+        width: 700px;
+    }
+}
+
+@media (max-width: 763px){
+
+    img{
+        width: 600px;
+    }
+
+    .modal-content{
+        width: 700px;
+    }
+}
+
+@media (max-width: 738px){
+
+    img{
+        width: 500px;
+    }
+
+    .modal-content{
+        width: 700px;
+    }
+}
+
+@media (max-width: 719px){
+
+    img{
+        width: 500px;
+    }
+
+    .modal-content{
+        width: 600px;
+    }
+
+    p{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 629px){
+
+    img{
+        width: 400px;
+    }
+
+    .modal-content{
+        width: 500px;
+    }
+
+    p{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 539px){
+
+    img{
+        width: 300px;
+    }
+
+    .modal-content{
+        width: 400px;
+    }
+
+    p{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:2145px){
+    p{
+        font-size: 40px;
+    }
+}

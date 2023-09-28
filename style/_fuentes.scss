@@ -1,0 +1,57 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.fuenteTitulo{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
+.fuente{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+/* fuentes */
+
+// ! titulos
+
+.titulos-h1{
+    padding: 80px;
+    font-size: 70px;
+}
+
+  // animaciones
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  // animaciones
+
+  .fuentes-index{
+    font-size: 20px;
+  }
+// ! titulos
